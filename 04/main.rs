@@ -1,6 +1,6 @@
-use lib::greet;
+mod helper;
 
 fn main () {
-    greet();
+    helper::greet();
 }
 
